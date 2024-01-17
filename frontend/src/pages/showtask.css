@@ -1,0 +1,10 @@
+.showtask-container {
+  width: 100%;
+
+  text-align: center;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2vw 0;
+}
