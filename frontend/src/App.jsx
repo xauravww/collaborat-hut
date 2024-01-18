@@ -1,10 +1,12 @@
 import "./App.css"
-import ShowTasks from "./pages/ShowTasks"
+import ShowTasks from "./pages/ShowTask/ShowTasks"
 
 function App() {
-  return <>
-    <ShowTasks/>
-  </>
+  return (
+    <>
+      <ShowTasks />
+    </>
+  )
 }
 
 export default App

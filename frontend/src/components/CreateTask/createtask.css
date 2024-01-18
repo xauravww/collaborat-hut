@@ -1,0 +1,82 @@
+.create-task-container {
+  position: absolute;
+  /* border: 2px solid red; */
+  background-color: #dadada;
+  width: 100%;
+
+  bottom: 0;
+}
+
+.input-add-task {
+  width: 90%;
+
+  border: none;
+  font-size: 1.8vw;
+  padding: 1vw 5vw;
+  border-top: 1px solid black;
+  outline: none;
+}
+.input-add-task-description {
+  width: 90%;
+
+  border: none;
+  font-size: 1.6vw;
+  padding: 0.2vw 5vw;
+  border-top: 1px solid black;
+  outline: none;
+}
+.add-task-helper-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2vw;
+  background-color: #161515;
+}
+.helper-item-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.add-task-helper-item img {
+  width: 2vw;
+  transition: all 0.5s;
+  filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(105deg)
+    brightness(105%) contrast(101%);
+}
+.add-task-helper-item img:hover {
+  transform: scale(2);
+}
+.add-task-helper-item {
+  margin: 0 2vw;
+}
+.priority img {
+  /* filter: invert(47%) sepia(58%) saturate(2273%) hue-rotate(171deg)
+    brightness(102%) contrast(101%); */
+}
+.helper-item-wrapper .priority-box {
+  position: absolute;
+  /* border: 1px solid red; */
+  background-color: rgba(0, 0, 0, 0.304);
+  backdrop-filter: blur(5px);
+  padding: 1vw 1vw;
+  width: 20vw;
+  top: 2vw;
+  left: 7vw;
+  display: flex;
+  justify-content: space-between;
+}
+.priority-box-item {
+  margin: 0 0.5vw;
+  background-color: hsl(200, 100%, 50%);
+  padding: 0.5vw;
+  font-weight: 500;
+}
+.priority-box-item:nth-child(2) {
+  background-color: hsl(56, 92%, 54%);
+}
+.priority-box-item:nth-child(3) {
+  background-color: hsl(342.81, 100%, 39.02%);
+}
+.submit img {
+  width: 2vw;
+  filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(105deg)
+    brightness(105%) contrast(101%);
+}
